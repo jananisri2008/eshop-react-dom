@@ -1,0 +1,143 @@
+/* src/styles/CartPage.css */
+
+/* General cart page styling */
+.cart-page {
+  padding: 20px;
+  text-align: center; /* Center the content */
+  background-color: #f9f9f9; /* Light background for the page */
+  min-height: 100vh;
+}
+
+/* Header Styling */
+.cart-page h1 {
+  font-size: 2.5rem; /* Larger heading size */
+  color: #007bff; /* Blue color for the heading */
+  margin-bottom: 20px;
+}
+
+/* Cart Item Title */
+.cart-page h3 {
+  font-size: 1.5rem; /* Slightly larger text for item title */
+  color: #333; /* Dark color for item title */
+  margin-bottom: 10px;
+}
+
+/* Cart Item Price */
+.cart-page p {
+  font-size: 1.2rem; /* Medium text size for price */
+  color: #555; /* Gray color for price */
+}
+
+/* Cart Item Styling */
+.cart-page .cart-item {
+  background-color: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for the items */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Buttons inside Cart Item */
+.cart-page .cart-item button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px; /* Space between buttons */
+  transition: background-color 0.3s ease;
+}
+
+.cart-page .cart-item button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Quantity display inside cart item */
+.cart-page .cart-item span {
+  font-size: 1.5rem; /* Slightly larger size for quantity display */
+}
+
+/* Total amount styling */
+.cart-page .total {
+  font-size: 1.8rem; /* Larger text for total */
+  color: #333; /* Dark text for clarity */
+  margin-top: 30px;
+  font-weight: bold; /* Bold the total amount */
+}
+
+/* Proceed to Order button styling */
+.cart-page .proceed-button {
+  background-color: #28a745; /* Green color for proceed button */
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.cart-page .proceed-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Empty cart message styling */
+.cart-page .empty-cart-message {
+  font-size: 1.5rem; /* Medium size for empty cart message */
+  color: #ff5722; /* Orange color for the message */
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+/* Go to Products button styling */
+.go-to-products-button {
+  background-color: #007bff; /* Blue color for the button */
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.go-to-products-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .cart-page {
+    padding: 15px; /* Slightly reduced padding on small screens */
+  }
+
+  .cart-page h1 {
+    font-size: 2rem; /* Smaller heading size on mobile */
+  }
+
+  .cart-page h3 {
+    font-size: 1.3rem; /* Smaller item title */
+  }
+
+  .cart-page .cart-item {
+    padding: 12px; /* Reduce padding inside cart items */
+    margin: 8px 0; /* Adjust spacing between items */
+  }
+
+  .cart-page .total {
+    font-size: 1.5rem; /* Smaller total font size for mobile */
+  }
+
+  .cart-page .proceed-button,
+  .go-to-products-button {
+    width: 100%; /* Make buttons full-width on smaller screens */
+    font-size: 1.1rem; /* Slightly smaller font size on mobile */
+  }
+}

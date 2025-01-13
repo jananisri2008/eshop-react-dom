@@ -1,4 +1,4 @@
-/* src/styles.css */
+/* src/styles.css
 
 body {
   font-family: Arial, sans-serif;
@@ -52,6 +52,72 @@ button:hover {
   display: inline-block;
   width: 200px;
   text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+} */
+/* src/styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: white;
+  color: brown;
+  display: flex;
+  justify-content: center; /* Center header contents horizontally */
+  align-items: center;
+  padding: 10px;
+  text-align: center; /* Centers the text in header */
+}
+
+header .logo img {
+  width: 100px;
+}
+
+header .nav {
+  display: flex;
+  justify-content: center; /* Centers nav links horizontally */
+}
+
+header .nav a {
+  color: brown;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+header .nav a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  color: #333;
+  text-align: center; /* Center any header tags like h1, h2, h3 */
+}
+
+button {
+  background-color: yellow;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: royalblue;
+}
+
+.product-card {
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: inline-block;
+  width: 200px;
+  text-align: center; /* Center text inside product card */
 }
 
 .product-card img {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';  
 import '../style/Header.css';  
-import logo from '../assets/logo.jpg'; 
+import logo from '../assets/e-logo.png'; 
 const Header = ({ cart }) => {
   const navLinkStyles = ({ isActive }) => {
     return {
