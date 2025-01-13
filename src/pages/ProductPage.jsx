@@ -33,7 +33,7 @@ const ProductPage = ({ addToCart }) => {
               <p>Price: ${product.price}</p>
               <div className="button-container">
                 <Link to={`/product/${product.id}`}>View Details</Link>
-                {/* <button onClick={() => addToCart(product)}>Add to Cart</button> */}
+                <button onClick={() => addToCart(product)}>Add to Cart</button>
               </div>
             </div>
           ))}
