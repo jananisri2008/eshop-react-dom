@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .product-page {
   text-align: center; 
   padding: 20px;
@@ -100,3 +101,20 @@
   font-size: 1.5rem;
   color: #333;               
 }
+=======
+
+.product-image {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+  }
+  
+ 
+  .product-card {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+>>>>>>> 6b34070ba41abb4e616723fc623cfe2f910268bd
