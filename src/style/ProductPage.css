@@ -1,11 +1,11 @@
-/* Ensures product images have a consistent size */
+
 .product-image {
-    width: 150px;  /* Set the width */
-    height: 150px; /* Set the height */
-    object-fit: cover; /* Ensures the image covers the box without stretching */
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
   }
   
-  /* Additional styles for product cards */
+ 
   .product-card {
     margin: 20px;
     padding: 10px;
